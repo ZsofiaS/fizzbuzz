@@ -14,4 +14,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(15)).to eq "fizzbuzz"
   end
   
+  it "return the number if it doesn't divide by 3 or 5" do
+    expect(fizzbuzz(7)).to eq 7
+  end
+   
 end
